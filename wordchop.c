@@ -131,7 +131,6 @@ void editorDrawRows(struct abuf *ab) {
 		} else {
 			abAppend(ab, "~", 1);
 		}
-		abAppend(ab, "~", 1);
 
 		abAppend(ab, "\x1b[K", 3);
 		if (y < E.screenrows - 1) {
